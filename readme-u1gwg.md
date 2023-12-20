@@ -1,20 +1,33 @@
-
 # LLM App Framework
 
-## Backend
-interface to various LLM models
+## Frontend : Human-Machine-Interface
 
-### [Ollama](https://ollama.ai/)
-Get up and running with Llama 2 and other large language models locally
+### [Chainlit](https://docs.chainlit.io/get-started/overview)
 
-### [LiteLLM](https://github.com/BerriAI/litellm)
+Build Python LLM apps in minutes 
+- Github: https://github.com/Chainlit/chainlit 
+- Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
 
-Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+### Streamlit
+
+### [Gradio](https://github.com/gradio-app/gradio)
+
+Build and share delightful machine learning apps, all in Python.
+
+### [ChatBot Ollama](https://github.com/ivanfioravanti/chatbot-ollama)
+
+Chatbot Ollama is an open source chat UI for Ollama.
 
 ## Mid-Tier
+
 workflow orchestration and service integration
 
+### [AutoGen](https://github.com/microsoft/autogen)
+
+Enable Next-Gen Large Language Model Applications
+
 ### [LangChain](https://github.com/langchain-ai/langchain)
+
 Building applications with LLMs through composability
 
 ### [Haystack](https://github.com/deepset-ai/haystack)
@@ -22,41 +35,36 @@ Building applications with LLMs through composability
 LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
 
 #### Building a private GPT with Haystack
-    - [Part-1: Why+How](https://medium.com/@fvanlitsenburg/building-a-privategpt-with-haystack-part-1-why-and-how-de6fa43e18b)
-    - [Part-2: Code](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-2-code-in-detail-7e0dfb9eb3ad)
-    - [Part-3: use Llama](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-3-using-llama-2-with-ggml-c2d994da40da)
 
-### [AutoGen](https://github.com/microsoft/autogen)
-Enable Next-Gen Large Language Model Applications
+-   [Part-1: Why+How](https://medium.com/@fvanlitsenburg/building-a-privategpt-with-haystack-part-1-why-and-how-de6fa43e18b)
+-   [Part-2: Code](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-2-code-in-detail-7e0dfb9eb3ad)
+-   [Part-3: use Llama](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-3-using-llama-2-with-ggml-c2d994da40da)
 
 ### [PrivateGPT](https://github.com/imartinez/privateGPT)
-Interact with your documents using the power of GPT, 100% privately, no data leaks
-- Docs: https://docs.privategpt.dev/
 
+Interact with your documents using the power of GPT, 100% privately, no data leaks
+
+-   Docs: https://docs.privategpt.dev/
 
 ### [LlamaIndex](https://github.com/run-llama/llama_index)
+
 LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
-- Docs: https://docs.llamaindex.ai/
+
+-   Docs: https://docs.llamaindex.ai/
 
 ### [MindsDB](https://github.com/mindsdb/mindsdb)
+
 MindsDB connects AI models to real time data
 
-## UI Frontend
-human-machine-interface
+## Backend : interface to various LLM models and resources
 
-### [Chainlit](https://docs.chainlit.io/get-started/overview)
-Build Python LLM apps in minutes
-- Github: https://github.com/Chainlit/chainlit
-- Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
+### [Ollama](https://ollama.ai/)
 
-### Streamlit
+Get up and running with Llama 2 and other large language models locally
 
-### [Gradio](https://github.com/gradio-app/gradio)
-Build and share delightful machine learning apps, all in Python. 
+### [LiteLLM](https://github.com/BerriAI/litellm)
 
-### [ChatBot](https://github.com/ivanfioravanti/chatbot-ollama)
-Chatbot Ollama is an open source chat UI for Ollama.
-
+Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
 # AI Apps & Use-Cases
 
@@ -67,48 +75,62 @@ Chatbot Ollama is an open source chat UI for Ollama.
 Personal AI application powered by GPT-4 and beyond, with AI personas, AGI functions, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy and gift #big-AGI-energy! Using Next.js, React, Joy.
 
 #### [big-AGI/Ollama](https://github.com/enricoros/big-agi/blob/main/docs/config-ollama.md)
+
 This guide helps you connect Ollama models to big-AGI for a professional AI/AGI operation and a good UI/Conversational experience. The integration brings the popular big-AGI features to Ollama, including: voice chats, editing tools, models switching, personas, and more.
 
 ### [Cheshire-Cat](https://github.com/cheshire-cat-ai/core)
+
 Production ready AI assistant framework
 
 ### [Amica](https://github.com/semperai/amica)
+
 Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
 
-
 ## [Bionic-GPT](https://github.com/bionic-gpt/bionic-gpt)
+
 BionicGPT is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality
 
 ## [llmware](https://github.com/llmware-ai/llmware)
+
 Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.
 
 ## [chatd](https://github.com/BruceMacD/chatd)
+
 Chat with your documents using local AI
 
 ## RAG
-- [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
-- [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
-- [Claude RAG Demo](https://github.com/anthropics/anthropic-retrieval-demo#setting-up-and-using-an-embedding-database)
-- [llamaIndex RAG](https://github.com/run-llama/rags)
-- [llama-coder](https://github.com/ex3ndr/llama-coder)
 
+-   [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
 
-- Smart RAG: Domain-specific fine-tuning for end-to-end Retrieval
-    - [Speaker - Greg Loughnane](https://www.linkedin.com/in/gregloughnane/)
-    - [Video](https://www.youtube.com/watch?v=0QaUqoICNBo&t=272s)
-    - [Slide](https://www.canva.com/design/DAFvFEhCJtg/Mthlo-nWXAPck3iK3JaB7Q/edit)
-    - [Code](https://github.com/arcee-ai/DALM/tree/main (Domain Adapted Lang Modeling Toolkit))
-    - [Company - AI Maker Space](https://github.com/AI-Maker-Space/Fine-tuning-LLM-Resources)
-    - [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
-    - [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
-    
+-   [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
+
+-   [Claude RAG Demo](https://github.com/anthropics/anthropic-retrieval-demo#setting-up-and-using-an-embedding-database)
+
+-   [llamaIndex RAG](https://github.com/run-llama/rags)
+
+-   [llama-coder](https://github.com/ex3ndr/llama-coder)
+
+-   Smart RAG: Domain-specific fine-tuning for end-to-end Retrieval
+
+    -   [Speaker - Greg Loughnane](https://www.linkedin.com/in/gregloughnane/)
+    -   [Video](https://www.youtube.com/watch?v=0QaUqoICNBo&t=272s)
+    -   [Slide](https://www.canva.com/design/DAFvFEhCJtg/Mthlo-nWXAPck3iK3JaB7Q/edit)
+    -   [Code](https://github.com/arcee-ai/DALM/tree/main%20(Domain%20Adapted%20Lang%20Modeling%20Toolkit))
+    -   [Company - AI Maker Space](https://github.com/AI-Maker-Space/Fine-tuning-LLM-Resources)
+    -   [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
+    -   [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
 
 # Learning Resources
 
+## Architecture Diagram
+
+### LLM App Stack
+
+![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
+
 ## YouTube channels
 
-
-| Title | URL | GitHub | local | Note |
-|-------|-----|--------|-------|------|
-| LangChain by Sam Witteveen | https://www.youtube.com/watch?v=3yPBVii7Ct0&list=PL8motc6AQftn-X1HkaGG9KjmKtWImCKJS | https://github.com/samwit/langchain-tutorials | projects\ai\sam_witeveen\langchain-tutorials | |
-| LLM by Sam Vitteveen | https://www.youtube.com/watch?v=TEq5Kg4VONA | https://github.com/samwit/llm-tutorials | projects\ai\sam_witeveen\llm-tutorials | |
+| Title                      | URL                                                                                 | GitHub                                        | local                                         | Note |
+|---------------|---------------|---------------|---------------|---------------|
+| LangChain by Sam Witteveen | https://www.youtube.com/watch?v=3yPBVii7Ct0&list=PL8motc6AQftn-X1HkaGG9KjmKtWImCKJS | https://github.com/samwit/langchain-tutorials | projects\ai\sam\_witeveen\langchain-tutorials |      |
+| LLM by Sam Vitteveen       | https://www.youtube.com/watch?v=TEq5Kg4VONA                                         | https://github.com/samwit/llm-tutorials       | projects\ai\sam\_witeveen\llm-tutorials       |      |
