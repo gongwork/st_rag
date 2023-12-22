@@ -54,6 +54,12 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 
 ### [MindsDB](https://github.com/mindsdb/mindsdb)
 
+### [SQLite-VSS](https://github.com/asg017/sqlite-vss)
+
+- sqlite-vss GitHub repository: https://github.com/asg017/sqlite-vss
+- Introducing sqlite-vss: A SQLite Extension for Vector Search: https://observablehq.com/@asg017/introducing-sqlite-vss
+- SQLite-VSS - ️ Langchain: https://api.python.langchain.com/en/latest/vectorstores/langchain.vectorstores.sqlitevss.SQLit
+
 MindsDB connects AI models to real time data
 
 ## Backend : interface to various LLM models and resources
