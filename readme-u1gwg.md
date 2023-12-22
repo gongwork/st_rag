@@ -94,6 +94,12 @@ Neural Search: semantic search, key word search, recommender
     -   [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
     -   [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
 
+## Neural-Search
+
+### [txtai](https://github.com/neuml/txtai) 
+All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
+- [Docs](https://neuml.github.io/txtai/)
+
 ## AI Assistant
 
 ### [big-AGI](https://github.com/enricoros/big-AGI)
