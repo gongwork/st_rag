@@ -1,6 +1,10 @@
 # LLM App Framework
 
+## Architecture Diagram
+
 ![LLM Application Stack](https://github.com/gongwork/st_rag/blob/main/docs/LLM-App-Stack.drawio.png)
+
+![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
 
 ## Frontend : Human-Machine-Interface
 
@@ -18,9 +22,7 @@ Build and share delightful machine learning apps, all in Python.
 
 Chatbot Ollama is an open source chat UI for Ollama.
 
-## Mid-Tier
-
-workflow orchestration and service integration
+## Mid-Tier : workflow orchestration and service integration
 
 ### [AutoGen](https://github.com/microsoft/autogen)
 
@@ -52,14 +54,15 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 
 -   Docs: https://docs.llamaindex.ai/
 
-### [MindsDB](https://github.com/mindsdb/mindsdb)
 
 ### [SQLite-VSS](https://github.com/asg017/sqlite-vss)
+A SQLite extension for efficient vector search, based on Faiss
 
 -   sqlite-vss GitHub repository: https://github.com/asg017/sqlite-vss
 -   Introducing sqlite-vss: A SQLite Extension for Vector Search: https://observablehq.com/@asg017/introducing-sqlite-vss
 -   SQLite-VSS - ️ Langchain: https://api.python.langchain.com/en/latest/vectorstores/langchain.vectorstores.sqlitevss.SQLit
 
+### [MindsDB](https://github.com/mindsdb/mindsdb)
 MindsDB connects AI models to real time data
 
 ## Backend : interface to various LLM models and resources
@@ -70,11 +73,28 @@ Get up and running with Llama 2 and other large language models locally
 
 ### [LiteLLM](https://github.com/BerriAI/litellm)
 
-Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+Call all LLM APIs using the OpenAI format. Use AWS Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
 # AI Apps & Use-Cases
 
-## Assistant
+## RAG
+Neural Search: semantic search, key word search, recommender
+
+-   [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
+-   [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
+-   [Claude RAG Demo](https://github.com/anthropics/anthropic-retrieval-demo#setting-up-and-using-an-embedding-database)
+-   [llamaIndex RAG](https://github.com/run-llama/rags)
+-   [llama-coder](https://github.com/ex3ndr/llama-coder)
+-   Smart RAG: Domain-specific fine-tuning for end-to-end Retrieval
+    -   [Speaker - Greg Loughnane](https://www.linkedin.com/in/gregloughnane/)
+    -   [Video](https://www.youtube.com/watch?v=0QaUqoICNBo&t=272s)
+    -   [Slide](https://www.canva.com/design/DAFvFEhCJtg/Mthlo-nWXAPck3iK3JaB7Q/edit)
+    -   [Code](https://github.com/arcee-ai/DALM/tree/main%20(Domain%20Adapted%20Lang%20Modeling%20Toolkit))
+    -   [Company - AI Maker Space](https://github.com/AI-Maker-Space/Fine-tuning-LLM-Resources)
+    -   [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
+    -   [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
+
+## AI Assistant
 
 ### [big-AGI](https://github.com/enricoros/big-AGI)
 
@@ -92,47 +112,31 @@ Production ready AI assistant framework
 
 Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
 
-## [Bionic-GPT](https://github.com/bionic-gpt/bionic-gpt)
+### Other use-cases
+- arXiv research assistant
+- Tutors help student learning
+- Personal assistants help senior living
+- MyLib as personal resource
+
+## Local AI-App Development
+
+### [Ollama](https://ollama.ai/)
+
+Get up and running with Llama 2 and other large language models locally
+
+### [Bionic-GPT](https://github.com/bionic-gpt/bionic-gpt)
 
 BionicGPT is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality
 
-## [llmware](https://github.com/llmware-ai/llmware)
+### [llmware](https://github.com/llmware-ai/llmware)
 
 Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.
 
-## [chatd](https://github.com/BruceMacD/chatd)
+### [chatd](https://github.com/BruceMacD/chatd)
 
 Chat with your documents using local AI
 
-## RAG
-
--   [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
-
--   [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
-
--   [Claude RAG Demo](https://github.com/anthropics/anthropic-retrieval-demo#setting-up-and-using-an-embedding-database)
-
--   [llamaIndex RAG](https://github.com/run-llama/rags)
-
--   [llama-coder](https://github.com/ex3ndr/llama-coder)
-
--   Smart RAG: Domain-specific fine-tuning for end-to-end Retrieval
-
-    -   [Speaker - Greg Loughnane](https://www.linkedin.com/in/gregloughnane/)
-    -   [Video](https://www.youtube.com/watch?v=0QaUqoICNBo&t=272s)
-    -   [Slide](https://www.canva.com/design/DAFvFEhCJtg/Mthlo-nWXAPck3iK3JaB7Q/edit)
-    -   [Code](https://github.com/arcee-ai/DALM/tree/main%20(Domain%20Adapted%20Lang%20Modeling%20Toolkit))
-    -   [Company - AI Maker Space](https://github.com/AI-Maker-Space/Fine-tuning-LLM-Resources)
-    -   [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
-    -   [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
-
 # Learning Resources
-
-## Architecture Diagram
-
-### LLM App Stack
-
-![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
 
 ## YouTube channels
 
