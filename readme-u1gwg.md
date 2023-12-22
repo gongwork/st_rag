@@ -1,12 +1,12 @@
 # LLM App Framework
 
+![LLM Application Stack](https://github.com/gongwork/st_rag/blob/main/docs/LLM-App-Stack.drawio.png)
+
 ## Frontend : Human-Machine-Interface
 
 ### [Chainlit](https://docs.chainlit.io/get-started/overview)
 
-Build Python LLM apps in minutes 
-- Github: https://github.com/Chainlit/chainlit 
-- Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
+Build Python LLM apps in minutes - Github: https://github.com/Chainlit/chainlit - Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
 
 ### Streamlit
 
@@ -56,9 +56,9 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 
 ### [SQLite-VSS](https://github.com/asg017/sqlite-vss)
 
-- sqlite-vss GitHub repository: https://github.com/asg017/sqlite-vss
-- Introducing sqlite-vss: A SQLite Extension for Vector Search: https://observablehq.com/@asg017/introducing-sqlite-vss
-- SQLite-VSS - ️ Langchain: https://api.python.langchain.com/en/latest/vectorstores/langchain.vectorstores.sqlitevss.SQLit
+-   sqlite-vss GitHub repository: https://github.com/asg017/sqlite-vss
+-   Introducing sqlite-vss: A SQLite Extension for Vector Search: https://observablehq.com/@asg017/introducing-sqlite-vss
+-   SQLite-VSS - ️ Langchain: https://api.python.langchain.com/en/latest/vectorstores/langchain.vectorstores.sqlitevss.SQLit
 
 MindsDB connects AI models to real time data
 
