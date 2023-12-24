@@ -79,7 +79,7 @@ Call all LLM APIs using the OpenAI format. Use AWS Bedrock, Azure, OpenAI, Coher
 
 ## RAG
 Neural Search: semantic search, key word search, recommender
-
+![RAG Overview](./docs/RAG-overview.png "RAG Overview")
 -   [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
 -   [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
 -   [Claude RAG Demo](https://github.com/anthropics/anthropic-retrieval-demo#setting-up-and-using-an-embedding-database)
@@ -148,5 +148,39 @@ Chat with your documents using local AI
 
 | Title                      | URL                                                                                 | GitHub                                        | local                                         | Note |
 |---------------|---------------|---------------|---------------|---------------|
+| --- | --- | --- | --- | --- |
+|The future of Gen AI (Turing Lecture)| https://www.youtube.com/watch?v=2kSl0xkq2lM | --------------- | --------------- | Michael Wooldridge: Director of Foundational AI Research|
 | LangChain by Sam Witteveen | https://www.youtube.com/watch?v=3yPBVii7Ct0&list=PL8motc6AQftn-X1HkaGG9KjmKtWImCKJS | https://github.com/samwit/langchain-tutorials | projects\ai\sam\_witeveen\langchain-tutorials |      |
 | LLM by Sam Vitteveen       | https://www.youtube.com/watch?v=TEq5Kg4VONA                                         | https://github.com/samwit/llm-tutorials       | projects\ai\sam\_witeveen\llm-tutorials       |      |
+| --- | --- | --- | --- | --- |
+
+
+# Questions
+## varieties of General Intelligence
+- Machines that can do anything a human can do
+- Machines that can do any cognitive task a human can do
+- Machines that can do any language-based task that a human can do
+- Augmented LLMs assist human with tasks
+
+## Dimensions of General Intelligence
+- planning
+- commonsense reasoning
+- logical reasoning
+- abstract reasoning
+- problem solving
+- natural language processing
+- arithmetic
+- recall
+- theory of mind
+- rational menta state
+- social reasoning
+- manual dexterity & manipulation
+- navigation
+- proprioception
+- vision understanding
+- mobility
+- audio understanding
+- multi-agent coordination
+- hand-eye coordination
+- ...
+
