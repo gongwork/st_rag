@@ -2,7 +2,8 @@
 
 ## Architecture Diagram
 
-![LLM Application Stack](https://github.com/gongwork/st_rag/blob/main/docs/LLM-App-Stack.drawio.png)
+![LLM Application Stack](./docs/LLM-App-Stack.drawio.png)
+(created in DrawIO)
 
 ![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
 
@@ -10,9 +11,12 @@
 
 ### [Chainlit](https://docs.chainlit.io/get-started/overview)
 
-Build Python LLM apps in minutes - Github: https://github.com/Chainlit/chainlit - Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
+Build Python LLM apps in minutes 
+- Github: https://github.com/Chainlit/chainlit 
+- Demo: https://github.com/AI-Maker-Space/Introduction-to-Chainlit
 
-### Streamlit
+### [Streamlit](https://streamlit.io/)
+A faster way to build and share data apps
 
 ### [Gradio](https://github.com/gradio-app/gradio)
 
@@ -36,11 +40,18 @@ Building applications with LLMs through composability
 
 LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
 
+- [Tutorials](https://github.com/deepset-ai/haystack-tutorials)
+- [Demos](https://github.com/deepset-ai/haystack-demos)
+
+
 #### Building a private GPT with Haystack
 
--   [Part-1: Why+How](https://medium.com/@fvanlitsenburg/building-a-privategpt-with-haystack-part-1-why-and-how-de6fa43e18b)
--   [Part-2: Code](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-2-code-in-detail-7e0dfb9eb3ad)
--   [Part-3: use Llama](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-3-using-llama-2-with-ggml-c2d994da40da)
+- [Part-1: Why+How](https://medium.com/@fvanlitsenburg/building-a-privategpt-with-haystack-part-1-why-and-how-de6fa43e18b)
+- [Part-2: Code](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-2-code-in-detail-7e0dfb9eb3ad)
+- [Part-3: use Llama](https://medium.com/@fvanlitsenburg/building-a-private-gpt-with-haystack-part-3-using-llama-2-with-ggml-c2d994da40da)
+- [Promptbox](https://github.com/fvanlitsenburg/promptbox)
+- [Author-Felix Van Litsenburg](https://medium.com/@fvanlitsenburg)
+
 
 ### [PrivateGPT](https://github.com/imartinez/privateGPT)
 
@@ -52,7 +63,8 @@ Interact with your documents using the power of GPT, 100% privately, no data lea
 
 LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 
--   Docs: https://docs.llamaindex.ai/
+- Docs: https://docs.llamaindex.ai/
+- Examples: https://github.com/run-llama/llama_index/tree/main/docs/examples
 
 
 ### [SQLite-VSS](https://github.com/asg017/sqlite-vss)
@@ -75,7 +87,11 @@ Get up and running with Llama 2 and other large language models locally
 
 Call all LLM APIs using the OpenAI format. Use AWS Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
-# AI Apps & Use-Cases
+# Solutions: AI Apps & Use-Cases
+
+## [llmware](https://github.com/llmware-ai/llmware)
+
+Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.
 
 ## RAG
 Neural Search: semantic search, key word search, recommender
@@ -94,11 +110,16 @@ Neural Search: semantic search, key word search, recommender
     -   [Paper - Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](https://arxiv.org/pdf/2210.02627.pdf)
     -   [LlmOps](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development)
 
+- [LlamaIndex Workshop: Multimodal + Advanced RAG Workhop with Gemini](https://www.youtube.com/watch?v=fdpaHJlN0PQ)
+    - https://github.com/run-llama/llama_index/tree/main/docs/examples/multi_modal/gemini.ipynb
+
 ## Neural-Search
 
 ### [txtai](https://github.com/neuml/txtai) 
 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [Docs](https://neuml.github.io/txtai/)
+
+- Run [Example Notebooks](https://neuml.github.io/txtai/examples/) in Google Colab
 
 ## AI Assistant
 
@@ -120,7 +141,7 @@ Amica is an open source interface for interactive communication with 3D characte
 
 ### Other use-cases
 - arXiv research assistant
-- Tutors help student learning
+- Tutors help student learn
 - Personal assistants help senior living
 - MyLib as personal resource
 
@@ -134,13 +155,27 @@ Get up and running with Llama 2 and other large language models locally
 
 BionicGPT is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality
 
-### [llmware](https://github.com/llmware-ai/llmware)
-
-Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.
-
 ### [chatd](https://github.com/BruceMacD/chatd)
 
 Chat with your documents using local AI
+
+# Development Resources
+
+## IDE
+### VS [Code](https://code.visualstudio.com/)
+
+Code editing - Redefined
+
+### Google [Colab](https://colab.google/)
+Colab is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs. Colab is especially well suited to machine learning, data science, and education.
+![Txtai intro running in Colab](./docs/txtai_on_colab_GPU_16GB.png)
+
+## Productivity Tools
+
+### [DrawIO](https://www.drawio.com/)
+has both cloud and desktop versions.
+
+### Google Drive
 
 # Learning Resources
 
