@@ -26,11 +26,14 @@ Build and share delightful machine learning apps, all in Python.
 
 Chatbot Ollama is an open source chat UI for Ollama.
 
+### [AutoGen Studio](https://github.com/microsoft/autogen/tree/main/samples/apps/autogen-studio)
+an AutoGen-powered AI app (user interface) to help you rapidly prototype AI agents, enhance them with skills, compose them into workflows and interact with them to accomplish tasks. It is built on top of the AutoGen framework, which is a toolkit for building AI agents
+
 ## Mid-Tier : workflow orchestration and service integration
 
 ### [AutoGen](https://github.com/microsoft/autogen)
 
-Enable Next-Gen Large Language Model Applications
+Enable Next-Gen Large Language Model Applications (see also AutoGen studio)
 
 ### [LangChain](https://github.com/langchain-ai/langchain)
 
