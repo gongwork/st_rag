@@ -22,6 +22,15 @@ A faster way to build and share data apps
 
 Build and share delightful machine learning apps, all in Python.
 
+### [Ollama-WebUI](https://github.com/ollama-webui/ollama-webui)
+ChatGPT-Style Web UI Client for Ollama
+- [Docs](https://ollamahub.com/)
+
+
+### [RasaGPT](https://github.com/paulpierre/RasaGPT)
+RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram
+- [Docs](https://rasagpt.dev/)
+
 ### [ChatBot Ollama](https://github.com/ivanfioravanti/chatbot-ollama)
 
 Chatbot Ollama is an open source chat UI for Ollama.
