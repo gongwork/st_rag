@@ -1,4 +1,4 @@
-# LLM App Framework
+# [LLM](https://www.wikiwand.com/en/Large_language_model) App Framework
 
 ## Architecture Diagram
 
@@ -96,8 +96,9 @@ Neural Search: semantic search, key word search, recommender
 
 ## Neural-Search
 
-### [txtai](https://github.com/neuml/txtai) 
+### [txtai](https://medium.com/neuml/introducing-txtai-the-all-in-one-embeddings-database-c721f4ff91ad) 
 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
+- [GitHub](https://github.com/neuml/txtai) 
 - [Docs](https://neuml.github.io/txtai/)
 
 ## AI Assistant
