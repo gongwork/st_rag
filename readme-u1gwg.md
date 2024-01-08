@@ -1,4 +1,4 @@
-# LLM App Framework
+# [LLM](https://www.wikiwand.com/en/Large_language_model) App Framework
 
 ## Architecture Diagram
 
@@ -83,6 +83,32 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 - Docs: https://docs.llamaindex.ai/
 - Examples: https://github.com/run-llama/llama_index/tree/main/docs/examples
 
+### [embedchain](https://github.com/embedchain/embedchain)
+- Docs: https://docs.embedchain.ai/
+
+
+## DB Stores
+
+- [Top 5 Vector DB](https://www.datacamp.com/blog/the-top-5-vector-databases)
+- [Vector DB comparisons](https://www.youtube.com/watch?v=zGAkhN1YZXM) by [Kamalraj](https://github.com/Kamalabot)
+
+
+### [PGVector](https://github.com/pgvector/pgvector)
+Open-source vector similarity search for Postgres
+
+### [FAISS](https://github.com/facebookresearch/faiss)
+A library for efficient similarity search and clustering of dense vectors.
+- [Docs](https://faiss.ai/)
+
+### [Qdrant](https://github.com/qdrant/qdrant)
+High-performance, massive-scale Vector Database for the next generation of AI (implemented in Rust). Also available in the cloud https://cloud.qdrant.io/ 
+```
+pip install qdrant-client
+```
+
+### [Vilvus](https://milvus.io/)
+
+### [Pinecone](https://docs.pinecone.io/docs/quickstart)
 
 ### [SQLite-VSS](https://github.com/asg017/sqlite-vss)
 A SQLite extension for efficient vector search, based on Faiss
@@ -132,8 +158,9 @@ Neural Search: semantic search, key word search, recommender
 
 ## Neural-Search
 
-### [txtai](https://github.com/neuml/txtai) 
+### [txtai](https://medium.com/neuml/introducing-txtai-the-all-in-one-embeddings-database-c721f4ff91ad) 
 All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
+- [GitHub](https://github.com/neuml/txtai) 
 - [Docs](https://neuml.github.io/txtai/)
 
 - Run [Example Notebooks](https://neuml.github.io/txtai/examples/) in Google Colab
