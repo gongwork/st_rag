@@ -48,6 +48,11 @@ Enable Next-Gen Large Language Model Applications (see also AutoGen studio)
 
 Building applications with LLMs through composability
 
+### [PostgresML](https://github.com/postgresml/postgresml)
+The GPU-powered AI application database. Get your app to market faster using the simplicity of SQL and the latest NLP, ML + LLM models.
+- [Homepage](https://postgresml.org/)
+
+
 ### [Haystack](https://github.com/deepset-ai/haystack)
 
 LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
