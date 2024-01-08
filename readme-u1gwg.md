@@ -38,11 +38,19 @@ Chatbot Ollama is an open source chat UI for Ollama.
 ### [AutoGen Studio](https://github.com/microsoft/autogen/tree/main/samples/apps/autogen-studio)
 an AutoGen-powered AI app (user interface) to help you rapidly prototype AI agents, enhance them with skills, compose them into workflows and interact with them to accomplish tasks. It is built on top of the AutoGen framework, which is a toolkit for building AI agents
 
+### [LM Studio](https://lmstudio.ai/)
+Discover, download, and run local LLMs
+
 ## Mid-Tier : workflow orchestration and service integration
 
 ### [AutoGen](https://github.com/microsoft/autogen)
 
 Enable Next-Gen Large Language Model Applications (see also AutoGen studio)
+
+### [CrewAI](https://github.com/joaomdmoura/crewAI)
+Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+
+
 
 ### [LangChain](https://github.com/langchain-ai/langchain)
 
@@ -130,7 +138,12 @@ Get up and running with Llama 2 and other large language models locally
 
 Call all LLM APIs using the OpenAI format. Use AWS Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
+
 # Solutions: AI Apps & Use-Cases
+
+## [open-interpreter](https://github.com/KillianLucas/open-interpreter)
+A natural language interface for computers, uses `LiteLLM` to connect to hosted LLM
+
 
 ## [llmware](https://github.com/llmware-ai/llmware)
 
