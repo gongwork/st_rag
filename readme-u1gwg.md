@@ -50,7 +50,12 @@ Enable Next-Gen Large Language Model Applications (see also AutoGen studio)
 ### [CrewAI](https://github.com/joaomdmoura/crewAI)
 Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-
+- Setup
+```
+conda activate autogen
+pip install crewai
+pip install duckduckgo-search
+```
 
 ### [LangChain](https://github.com/langchain-ai/langchain)
 
@@ -138,6 +143,8 @@ Get up and running with Llama 2 and other large language models locally
 
 Call all LLM APIs using the OpenAI format. Use AWS Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
+### [vLLM](https://github.com/gongwork/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs
 
 # Solutions: AI Apps & Use-Cases
 
