@@ -25,15 +25,21 @@ Build and share delightful machine learning apps, all in Python.
 ### [Ollama-WebUI](https://github.com/ollama-webui/ollama-webui)
 ChatGPT-Style Web UI Client for Ollama
 - [Docs](https://ollamahub.com/)
-
-
-### [RasaGPT](https://github.com/paulpierre/RasaGPT)
-RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram
-- [Docs](https://rasagpt.dev/)
+- Local: ~/projects/AI/ollama-webui/readme-u1gwg.md
+```
+conda activate ollama
+cd ~/projects/AI/ollama-webui/backend
+sh start.sh
+```
+open browser at URL=http://localhost:8080/
 
 ### [ChatBot Ollama](https://github.com/ivanfioravanti/chatbot-ollama)
 
 Chatbot Ollama is an open source chat UI for Ollama.
+
+### [RasaGPT](https://github.com/paulpierre/RasaGPT)
+RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram
+- [Docs](https://rasagpt.dev/)
 
 ### [AutoGen Studio](https://github.com/microsoft/autogen/tree/main/samples/apps/autogen-studio)
 an AutoGen-powered AI app (user interface) to help you rapidly prototype AI agents, enhance them with skills, compose them into workflows and interact with them to accomplish tasks. It is built on top of the AutoGen framework, which is a toolkit for building AI agents
@@ -77,9 +83,6 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 
 - Docs: https://docs.llamaindex.ai/
 - Examples: https://github.com/run-llama/llama_index/tree/main/docs/examples
-
-### [embedchain](https://github.com/embedchain/embedchain)
-- Docs: https://docs.embedchain.ai/
 
 
 ## DB Stores
@@ -133,6 +136,14 @@ Providing enterprise-grade LLM-based development framework, tools, and fine-tune
 
 ## RAG
 Neural Search: semantic search, key word search, recommender
+
+### [embedchain](https://github.com/embedchain/embedchain)
+Embedchain is an Open Source RAG Framework that makes it easy to create and deploy AI apps
+
+- Docs: https://docs.embedchain.ai/
+
+
+### Background 
 ![RAG Overview](./docs/RAG-overview.png "RAG Overview")
 -   [RAG Concept](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html)
 -   [10 Ways to Improve RAG](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
@@ -258,3 +269,6 @@ has both cloud and desktop versions.
 - hand-eye coordination
 - ...
 
+# Resources
+## Compare GitHub repos by Forks-and-Stars
+https://github.com/wgong/py4kids/blob/master/lesson-11-scrapy/github/forks_stars.ipynb
