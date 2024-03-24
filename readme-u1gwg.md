@@ -22,6 +22,10 @@ A faster way to build and share data apps
 
 Build and share delightful machine learning apps, all in Python.
 
+### [chatOllama](https://github.com/wgong/chat-ollama)
+~/projects/AI/chat-ollam
+
+
 ### [Ollama-WebUI](https://github.com/ollama-webui/ollama-webui)
 ChatGPT-Style Web UI Client for Ollama
 - [Docs](https://ollamahub.com/)
@@ -32,6 +36,7 @@ cd ~/projects/AI/ollama-webui/backend
 sh start.sh
 ```
 open browser at URL=http://localhost:8080/
+
 
 ### [ChatBot Ollama](https://github.com/ivanfioravanti/chatbot-ollama)
 
@@ -198,6 +203,7 @@ All-in-one open-source embeddings database for semantic search, LLM orchestratio
 
 ## AI Assistant
 
+
 ### [big-AGI](https://github.com/enricoros/big-AGI)
 
 Personal AI application powered by GPT-4 and beyond, with AI personas, AGI functions, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy and gift #big-AGI-energy! Using Next.js, React, Joy.
@@ -220,11 +226,22 @@ Amica is an open source interface for interactive communication with 3D characte
 - Personal assistants help senior living
 - MyLib as personal resource
 
+### AI Data Analyst
+
+- [Vanna](https://github.com/vanna-ai/vanna)
+    - ~/projects/AI/lighthouse-learning-machine/data-analyst/vanna
+
 ## Local AI-App Development
 
 ### [Ollama](https://ollama.ai/)
 
 Get up and running with Llama 2 and other large language models locally
+
+- [python API](https://github.com/ollama/ollama-python)
+    - ~/projects/AI/ollama-python
+
+- [Ollama and LangChain: Run LLMs locally](https://medium.com/@abonia/ollama-and-langchain-run-llms-locally-900931914a46)
+    - ~/projects/AI/ollama-python/examples/langchain
 
 ### [Bionic-GPT](https://github.com/bionic-gpt/bionic-gpt)
 
