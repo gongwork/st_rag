@@ -117,6 +117,13 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 ### [PGVector](https://github.com/pgvector/pgvector)
 Open-source vector similarity search for Postgres
 
+
+### [ChromaDB](https://github.com/chroma-core/chroma)
+
+### [Marqo](https://github.com/marqo-ai/marqo)
+multi-modal, multi-linqual vector DB
+- https://www.marqo.ai/blog/context-is-all-you-need-multimodal-vector-search-with-personalization
+
 ### [FAISS](https://github.com/facebookresearch/faiss)
 A library for efficient similarity search and clustering of dense vectors.
 - [Docs](https://faiss.ai/)
@@ -228,8 +235,40 @@ Amica is an open source interface for interactive communication with 3D characte
 
 ### AI Data Analyst
 
+- https://github.com/topics/nl2sql
+
 - [Vanna](https://github.com/vanna-ai/vanna)
     - ~/projects/AI/lighthouse-learning-machine/data-analyst/vanna
+
+    - ~/projects/AI/lighthouse-learning-machine/data-analyst/notebooks/sqlite-ollama-chromadb-u1gwg.ipynb
+    ```
+from vanna.ollama import Ollama
+from vanna.chromadb.chromadb_vector import ChromaDB_VectorStore
+class MyVanna(ChromaDB_VectorStore, Ollama):
+    def __init__(self, config=None):
+        ChromaDB_VectorStore.__init__(self, config=config)
+        Ollama.__init__(self, config=config)
+
+vn = MyVanna(config={'model': 'mistral'})
+file_db = "./db/gpt3sql.sqlite"
+vn.connect_to_sqlite(file_db)
+df_ddl = vn.run_sql("SELECT type, sql FROM sqlite_master WHERE sql is not null")
+for ddl in df_ddl['sql'].to_list():
+    vn.train(ddl=ddl)
+# DDL statements are powerful because they specify table names, colume names, types, and potentially relationships
+vn.train(ddl="""
+    CREATE TABLE IF NOT EXISTS my-table (
+        id INT PRIMARY KEY,
+        name VARCHAR(100),
+        age INT
+    )
+""")
+# Sometimes you may want to add documentation about your business terminology or definitions.
+vn.train(documentation="Our business defines OTIF score as the percentage of orders that are delivered on time and in full")
+# You can also add SQL queries to your training data. This is useful if you have some queries already laying around. You can just copy and paste those from your editor to begin generating new SQL.
+vn.train(sql="SELECT * FROM my-table WHERE name = 'John Doe'")
+vn.ask(question="How many customers do we have")
+    ```
 
 ## Local AI-App Development
 
