@@ -2,7 +2,7 @@
 
 ## Architecture Diagram
 
-![LLM Application Stack](./docs/LLM-App-Stack.drawio.png)
+![LLM Application Stack](./docs/LLM-App-Stack-v2.drawio.png)
 (created in DrawIO)
 
 ![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
@@ -21,10 +21,8 @@ A faster way to build and share data apps
 ### [Gradio](https://github.com/gradio-app/gradio)
 
 Build and share delightful machine learning apps, all in Python.
-
 ### [chatOllama](https://github.com/wgong/chat-ollama)
 ~/projects/AI/chat-ollam
-
 
 ### [Ollama-WebUI](https://github.com/ollama-webui/ollama-webui)
 ChatGPT-Style Web UI Client for Ollama
@@ -57,6 +55,12 @@ Discover, download, and run local LLMs
 ### [AutoGen](https://github.com/microsoft/autogen)
 
 Enable Next-Gen Large Language Model Applications (see also AutoGen studio)
+
+### [Devika][https://github.com/wgong/devika]
+Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.
+
+- [video](https://www.youtube.com/watch?v=btpnz0WQGvw&t=243s)
+- [fork](https://github.com/wgong/devika)
 
 ### [CrewAI](https://github.com/joaomdmoura/crewAI)
 Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
@@ -107,6 +111,9 @@ LlamaIndex (formerly GPT Index) is a data framework for your LLM applications
 - Docs: https://docs.llamaindex.ai/
 - Examples: https://github.com/run-llama/llama_index/tree/main/docs/examples
 
+### [embedchain](https://github.com/embedchain/embedchain)
+- Docs: https://docs.embedchain.ai/
+
 
 ## DB Stores
 
@@ -153,6 +160,8 @@ MindsDB connects AI models to real time data
 ### [Ollama](https://ollama.ai/)
 
 Get up and running with Llama 2 and other large language models locally
+
+- local: ~/projects/AI/lighthouse-learning-machine/ollama
 
 ### [LiteLLM](https://github.com/BerriAI/litellm)
 
@@ -296,6 +305,9 @@ Chat with your documents using local AI
 ### VS [Code](https://code.visualstudio.com/)
 
 Code editing - Redefined
+
+#### twinny 
+VS Code copilot-like extension using ollama
 
 ### Google [Colab](https://colab.google/)
 Colab is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs. Colab is especially well suited to machine learning, data science, and education.
