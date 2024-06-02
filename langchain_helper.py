@@ -67,7 +67,7 @@ def create_vector_db(file_path='codebasics_faqs.csv', vectordb_file_path="faiss_
 
 def get_vector_db(vectordb_file_path="faiss_index"):
     # Load the vector database from the local folder
-    return FAISS.load_local(vectordb_file_path, embeddings)
+    return FAISS.load_local(vectordb_file_path, embeddings, allow_dangerous_deserialization=True)
 
 # # @st.cache_resource
 # def get_qa_chain(vectordb_file_path="faiss_index"):

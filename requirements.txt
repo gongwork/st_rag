@@ -1,3 +1,7 @@
+## conda create -n rag python=3.11
+## conda activate rag
+## pip install -r requirements.txt
+
 # LLM
 openai
 google-generativeai
@@ -5,17 +9,17 @@ ollama
 
 # embeddings
 sentence-transformers
-tiktoken==0.4.0
+tiktoken  # ==0.4.0
 chromadb
-faiss-cpu==1.7.4
+faiss-cpu # ==1.7.4
 
 # langchain==0.0.284
 ## upgrade to 0.0.340
 langchain
 langchain-community
 
-python-dotenv==1.0.0
-streamlit==1.22.0
+python-dotenv # ==1.0.0
+streamlit # ==1.22.0
 
-protobuf~=3.19.0
+protobuf  # ~=3.19.0
 jsonlines
