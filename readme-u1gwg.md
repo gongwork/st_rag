@@ -2,7 +2,7 @@
 
 ## Architecture Diagram
 
-![LLM Application Stack](./docs/LLM-App-Stack.drawio.png)
+![LLM Application Stack](./docs/LLM-App-Stack-v1.drawio.png)
 (created in DrawIO)
 
 ![Emerging LLM App Stack](./docs/emerging-llm-stack.png "Emerging LLM App Stack")
