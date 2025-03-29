@@ -1,9 +1,14 @@
-import streamlit as st
-from langchain_helper import get_qa_chain, create_vector_db
-
 from datetime import datetime
 import jsonlines
 from pathlib import Path
+from time import time
+
+from langchain_helper import (
+    create_vector_db, create_rag_chain
+)
+
+
+import streamlit as st
 
 def load_jsonl(file_path):
     if not file_path.exists():
@@ -26,7 +31,7 @@ def dump_jsonl(file_path):
 # init
 file_chat_records = Path("chat_record.jsonl")
 if "chat_records" not in st.session_state:
-    st.session_state["chat_records"] = [] # ts : ts, Q: question, A: answer
+    st.session_state["chat_records"] = [] # ts : ts, Q: query, A: answer
     load_jsonl(file_chat_records)
 
 st.header("Codebasics 🌱")
@@ -47,26 +52,35 @@ with c3:
     if btn_clear:
         st.session_state["chat_records"] = []
 
-def update_chat_records(ts, question, answer):
+def update_chat_records(ts, rag_query, answer):
     rec = st.session_state.get("chat_records")
-    rec.append({"ts": ts,  "Q": question, "A": answer})
+    rec.append({"ts": ts,  "Q": rag_query, "A": answer})
     st.session_state["chat_records"] = rec
-    # st.write(rec)
-    # st.write(st.session_state["chat_records"])
+
 
 st.subheader("Q&A")
 
-question = st.text_input("Do you have a question? ")
-if question:
-    chain = get_qa_chain()
-    response = chain(question)
+chain = create_rag_chain(llm_provider="Ollama")
+
+rag_query = st.text_input("Ask me question: ", value="", key="key_rag_query")
+c_1, _, c_2, _ = st.columns(4)
+with c_1:
+    submit = st.button("Submit")
+with c_2:
+    clear = st.button("Clear")
+
+if rag_query and submit:
+    ts1 = time()
+    answer = chain.invoke(rag_query)
+    ts2 = time()
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    st.markdown("### Answer:")
-    answer = response["result"]
+    st.markdown(f"### Answer: \t\t [took {(ts2-ts1):.3f} sec]")
     st.write(answer)
-    update_chat_records(ts, question, answer)
+    update_chat_records(ts, rag_query, answer)
 
+if clear:
+    st.session_state["rag_query"] = ""
 
 if "chat_records" in st.session_state and len(st.session_state["chat_records"]):
     st.subheader("Chat History")
